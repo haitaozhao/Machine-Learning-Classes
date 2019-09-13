@@ -13,5 +13,4 @@ df1 = df[df['A191RL1Q225SBEA'].notna()]
 df1.to_csv( 'fred_data.csv',index = None)
 ```
 
-![least squares](C:\Users\haitao\Documents\GitHub\Machine-Learning-Classes\least squares\ls.jpg)
-
+![least squares](.\ls.jpg)
