@@ -1,5 +1,5 @@
 # Least Squares​
- 
+
 
 Using linear regression to predict the changing rates of GDP. The data is obtained from 'FRED' website using python as follows
 
@@ -13,13 +13,5 @@ df1 = df[df['A191RL1Q225SBEA'].notna()]
 df1.to_csv( 'fred_data.csv',index = None)
 ```
 
+![](C:\Users\haitao\Documents\GitHub\Machine-Learning-Classes\least squares\ls.jpg)
 
-
-Least Squares is to obtain 
-$$
-\beta^*={\rm{argmin}}_{\beta}\frac{1}{N}\|Y-X\beta\|^2
-$$
-and the solution is quite simple (if $X^TX$ is invertible) 
-$$
-\beta^*=(X^TX)^{-1}X^TY
-$$
