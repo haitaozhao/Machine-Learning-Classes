@@ -1,4 +1,4 @@
-# Least Squares​
+Least Squares​
 
 
 Using linear regression to predict the changing rates of GDP. The data is obtained from 'FRED' website using python as follows
@@ -13,5 +13,5 @@ df1 = df[df['A191RL1Q225SBEA'].notna()]
 df1.to_csv( 'fred_data.csv',index = None)
 ```
 
-![](C:\Users\haitao\Documents\GitHub\Machine-Learning-Classes\least squares\ls.jpg)
+![least squares](C:\Users\haitao\Documents\GitHub\Machine-Learning-Classes\least squares\ls.jpg)
 
