@@ -5,4 +5,5 @@
 
 1. Least Squares 
 2. Perceptron (including using least squares criterion)
+3. K nearest neighbors
 
